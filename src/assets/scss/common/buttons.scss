@@ -1,0 +1,30 @@
+@import '@/assets/scss/utils/vars.scss';
+
+.btn {
+  display: inline-block;
+  padding: .8em 2em;
+  line-height: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 30px;
+
+  // primiry btn
+  &.btnPrimary {
+    color: $default-color;
+    border: 1px solid $border-button-default;
+    background-color: $button-default;
+  }
+}
+
+@media (max-width: 1366px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    padding: .4em 1em;
+    font-size: 15px;
+  }
+}

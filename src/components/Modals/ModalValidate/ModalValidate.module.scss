@@ -1,0 +1,12 @@
+@import '@/assets/scss/utils/vars.scss';
+
+.errorText {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13.4px;
+  color: $color-red;
+}
+
+input.error {
+  border-color: $color-red;
+}
