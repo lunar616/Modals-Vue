@@ -44,7 +44,7 @@
         </div>
 
         <div class="modal-form-validate">
-          <button class="btn btnPrimary" @click="modalValidate = !modalValidate">
+          <button class="btn btnPrimary" @click="openModal('modalValidate')">
             Show modal with form + Validate
           </button>
 
