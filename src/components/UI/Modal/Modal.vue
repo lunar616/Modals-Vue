@@ -3,7 +3,7 @@
     <div class="modal__wrapper" @mousedown.self="$emit('close')">
       <div class="modal-content">
         <div class="modal-header">
-          <span class="modal-title"> {{ title }} </span>
+          <span class="modal-title">{{ title }}</span>
           <span class="button-close" @click="$emit('close')">×</span>
         </div>
 
